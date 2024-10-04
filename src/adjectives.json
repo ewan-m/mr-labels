@@ -1,0 +1,142 @@
+{
+  "Neatness": {
+    "neat": "Clean, orderly, and easy to read, with consistent form",
+    "somewhatNeat": "Mostly tidy but with occasional messiness or irregularities",
+    "messy": "Disorganized and difficult to decipher, with irregular form"
+  },
+  "Legibility": {
+    "legible": "Easily readable, clear, and unambiguous",
+    "partiallyLegible": "Readable but with sections that are harder to discern",
+    "illegible": "Difficult to read or understand, with unclear letters"
+  },
+  "Consistency": {
+    "deliberate": "Carefully written with consistent form and attention to detail",
+    "mostlyDeliberate": "Generally consistent but with minor lapses in precision",
+    "hurried": "Quick, imprecise, and lacking care, but with some form maintained",
+    "sloppy": "Untidy, careless, and highly inconsistent throughout"
+  },
+  "FormCharacteristics": {
+    "flowing": "Smooth, continuous strokes with a sense of ease",
+    "somewhatFlowing": "Generally smooth with occasional breaks or stiffness",
+    "jagged": "Abrupt, sharp, and uneven strokes, lacking smoothness",
+    "somewhatJagged": "Primarily sharp but with occasional smoother sections",
+    "elegant": "Graceful, refined, and polished with a delicate appearance",
+    "somewhatElegant": "Mostly refined but with occasional rough patches",
+    "blocky": "Square and rigid, with strong, box-like shapes",
+    "partiallyBlocky": "Primarily blocky with some curves or smoother elements",
+    "spidery": "Thin, delicate, and web-like with a fragile appearance",
+    "childlike": "Simple, immature, and lacking refinement or structure",
+    "sharp": "Crisp and pointed with clear, distinct edges"
+  },
+  "Pressure": {
+    "bold": "Heavy and dark strokes due to firm pressure",
+    "moderatelyBold": "Firm pressure, but not overly heavy",
+    "faint": "Light and barely visible strokes due to minimal pressure",
+    "somewhatFaint": "Light but still legible, with some pressure applied",
+    "heavy": "Thick strokes with strong pressure exerted on the paper"
+  },
+  "Speed": {
+    "scratchy": "Fast, rough, and often chaotic strokes, with little care",
+    "somewhatScratchy": "Generally fast but with moments of control or care",
+    "shaky": "Unsteady or trembling lines, indicating hesitation or instability",
+    "somewhatShaky": "Slight trembles in the strokes but mostly steady"
+  },
+  "Shape": {
+    "angularLetters": "Letters formed with sharp, distinct angles",
+    "somewhatAngular": "Primarily angular, with occasional rounded or soft edges",
+    "roundedLetters": "Smooth, curved, and soft letters with no sharp angles",
+    "somewhatRounded": "Generally curved but with some angular forms"
+  },
+  "LetterSize": {
+    "large": "Big, oversized letters with strong presence on the page",
+    "slightlyLarge": "Larger than average but not overly big",
+    "average": "Pretty average sized letters",
+    "small": "Compact, minimal letters that are smaller than typical",
+    "slightlySmall": "Slightly smaller than average but still legible",
+    "inconsistent": "Varies in size throughout the text, with noticeable shifts"
+  },
+  "Slant": {
+    "extremeForward": "Very strong slant to the right, indicating assertiveness or urgency",
+    "forward": "Noticeable slant to the right but not extreme",
+    "backward": "Moderate slant to the left, indicating hesitation or conservativeness",
+    "extremeBackward": "Very strong slant to the left, reflecting strong restraint or withdrawal",
+    "upright": "Perfectly vertical, with no slant in either direction"
+  },
+  "LetterSpacing": {
+    "compressed": "Letters are very close together, almost touching",
+    "quiteCompressed": "Letters are fairly close together with minimal space",
+    "slightlyCompressed": "Letters are somewhat close but still readable",
+    "expansive": "Letters are spaced well apart with visible gaps",
+    "quiteExpansive": "Letters are generously spaced but not overly wide",
+    "extremelyExpansive": "Letters are very widely spaced, almost disconnected"
+  },
+  "WordSpacing": {
+    "wideWordSpacing": "Large gaps between words, indicating clear separation",
+    "moderatelyWideWordSpacing": "Words are well-spaced but still connected",
+    "slightlyWideWordSpacing": "Words are slightly more spaced than typical",
+    "narrowWordSpacing": "Words are close together with minimal gaps",
+    "extremelyNarrowWordSpacing": "Words are almost touching or overlapping"
+  },
+  "OverallSpacing": {
+    "evenSpacing": "Consistent gaps between words and letters throughout the writing",
+    "mostlyEvenSpacing": "Generally consistent spacing with minor deviations",
+    "inconsistentSpacing": "Uneven gaps, with both wide and narrow spaces"
+  },
+  "LetterConnectivity": {
+    "connectedWriting": "Letters are joined together with flowing, continuous strokes",
+    "mostlyConnectedWriting": "Letters are mostly joined, but occasional breaks occur",
+    "disconnectedWriting": "Letters are separated and stand apart from one another"
+  },
+  "LoopStyle": {
+    "looped": "Letters like 'l' and 'e' have clear, defined loops",
+    "somewhatLooped": "Loops are present but not always fully formed"
+  },
+  "LoopClosure": {
+    "closedLoops": "Loops are fully closed, creating complete circular shapes",
+    "partiallyClosedLoops": "Loops are mostly closed but with small openings",
+    "openLoops": "Loops are open, incomplete, or barely formed"
+  },
+  "BottomStrokes": {
+    "felonsClaw": "Sharp, hook-like shapes at the bottom of letters, resembling claws",
+    "somewhatFelonsClaw": "Bottom strokes show some hook-like forms but not extreme",
+    "garlandWriting": "Rounded, cup-like forms at the bottom of letters, soft and gentle"
+  },
+  "TopStrokes": {
+    "arcadeWriting": "Arched, bridge-like shapes at the top of letters",
+    "slightlyArcadeWriting": "Arches are present but less pronounced"
+  },
+  "LineWeight": {
+    "thread": "Very thin, delicate, and light strokes, like threads",
+    "slightlyThread": "Thin lines but slightly more weight than threads"
+  },
+  "Baseline": {
+    "straight": "Writing follows a straight and even baseline with no deviation",
+    "mostlyStraight": "Generally straight but with small fluctuations",
+    "ascending": "Writing moves upwards, rising above the baseline gradually",
+    "slightlyAscending": "Slight upward trend but not extreme",
+    "descending": "Writing slopes downwards, below the baseline",
+    "slightlyDescending": "Subtle downward slope",
+    "wavy": "Baseline undulates with noticeable rises and falls"
+  },
+  "PunctuationStyle": {
+    "precise": "Punctuation is carefully placed, accurate, and consistent",
+    "mostlyPrecise": "Punctuation is generally accurate with minor inconsistencies",
+    "missing": "Punctuation is absent or minimal",
+    "exaggerated": "Punctuation is large, bold, or overly emphasized"
+  },
+  "DominantZone": {
+    "upperDominant": "Emphasis on the upper zone of letters, such as tall letters",
+    "slightlyUpperDominant": "Upper zone is emphasized but not overpowering",
+    "middleDominant": "Emphasis on the middle zone, focusing on letters like 'a' and 'e'",
+    "lowerDominant": "Emphasis on the lower zone, like long descenders"
+  },
+  "TBarHeight": {
+    "high": "T-bar is high up on the stem, closer to the top of the letter",
+    "slightlyHigh": "T-bar is moderately high but not extreme",
+    "low": "T-bar is low on the stem, near the bottom of the letter"
+  },
+  "TBarCrossing": {
+    "crossed": "T-bar is clearly crossed, forming a distinct horizontal line",
+    "lightlyCrossed": "T-bar is crossed but with a lighter, less distinct stroke"
+  }
+}

@@ -104,10 +104,27 @@ body {
 }
 
 /* Canvas */
+.canvas-container {
+  position: relative;
+  width: 800px;
+  height: auto;
+}
+
 .canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
   margin-bottom: 30px;
   padding: 0;
   cursor: crosshair;
+}
+
+.image-canvas {
+  z-index: 1;
+}
+
+.draw-canvas {
+  z-index: 2;
 }
 
 /* Action Buttons */
