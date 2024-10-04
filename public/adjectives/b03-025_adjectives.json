@@ -1,0 +1,25 @@
+{
+  "selectedAdjectives": {
+    "Neatness": "somewhatNeat",
+    "Legibility": "legible",
+    "Consistency": "hurried",
+    "FormCharacteristics": "spidery",
+    "Pressure": "moderatelyBold",
+    "Speed": "somewhatScratchy",
+    "Shape": "somewhatAngular",
+    "LetterSize": "average",
+    "Slant": "backward",
+    "LetterSpacing": "expansive",
+    "WordSpacing": "moderatelyWideWordSpacing",
+    "OverallSpacing": "mostlyEvenSpacing",
+    "LetterConnectivity": "disconnectedWriting",
+    "LoopStyle": "somewhatLooped",
+    "LoopClosure": "closedLoops",
+    "TopStrokes": "slightlyArcadeWriting",
+    "Baseline": "straight",
+    "PunctuationStyle": "mostlyPrecise",
+    "DominantZone": "slightlyUpperDominant",
+    "TBarHeight": "low",
+    "TBarCrossing": "lightlyCrossed"
+  }
+}

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import adjectivesMap from "./adjectives.json";
-import imagesMap from "./images.json";
+import imagesMapImport from "./images.json";
+
+const imagesMap = (imagesMapImport as Record<string, string[]>)
 
 const styles = `
   .container {
@@ -212,11 +214,11 @@ const styles = `
 
 const HandwritingMeasurement = () => {
   const [authorIndex, setAuthorIndex] = useState(0);
-  const [selectedAdjectives, setSelectedAdjectives] = useState({});
+  const [selectedAdjectives, setSelectedAdjectives] = useState<Record<string, string>>({});
 
   const authors = Object.keys(imagesMap);
 
-  const selectAdjective = (category, adjective) => {
+  const selectAdjective = (category: string, adjective: string) => {
     setSelectedAdjectives((prev) => ({
       ...prev,
       [category]: adjective,
@@ -224,8 +226,7 @@ const HandwritingMeasurement = () => {
   };
 
   const downloadJson = () => {
-    const data = { selectedAdjectives };
-    const jsonString = JSON.stringify(data, null, 2);
+    const jsonString = JSON.stringify(selectedAdjectives, null, 2);
     const blob = new Blob([jsonString], { type: "application/json" });
     const url = URL.createObjectURL(blob);
 

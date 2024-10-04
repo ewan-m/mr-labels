@@ -1,0 +1,24 @@
+{
+  "selectedAdjectives": {
+    "Neatness": "neat",
+    "Legibility": "legible",
+    "Consistency": "mostlyDeliberate",
+    "FormCharacteristics": "elegant",
+    "Pressure": "somewhatFaint",
+    "Shape": "roundedLetters",
+    "LetterSize": "slightlySmall",
+    "Slant": "upright",
+    "LetterSpacing": "quiteExpansive",
+    "WordSpacing": "moderatelyWideWordSpacing",
+    "LetterConnectivity": "mostlyConnectedWriting",
+    "OverallSpacing": "evenSpacing",
+    "LoopStyle": "looped",
+    "LoopClosure": "closedLoops",
+    "BottomStrokes": "garlandWriting",
+    "TopStrokes": "slightlyArcadeWriting",
+    "Baseline": "straight",
+    "TBarHeight": "low",
+    "DominantZone": "middleDominant",
+    "TBarCrossing": "lightlyCrossed"
+  }
+}
