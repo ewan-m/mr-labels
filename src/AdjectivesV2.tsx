@@ -276,7 +276,7 @@ const HandwritingMeasurement: FunctionComponent<{
             </p>
             <img
               className="handwriting-image"
-              src={`/images/${imagesMap[authors[authorIndex]][0]}.png`}
+              src={`${import.meta.env.BASE_URL}/images/${imagesMap[authors[authorIndex]][0]}.png`}
               alt="Handwriting sample"
             />
           </div>
