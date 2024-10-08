@@ -31,11 +31,11 @@
     "sharp": "Crisp and pointed with clear, distinct edges"
   },
   "Pressure": {
+    "heavy": "Thick strokes with strong pressure exerted on the paper",
     "bold": "Heavy and dark strokes due to firm pressure",
     "moderatelyBold": "Firm pressure, but not overly heavy",
     "faint": "Light and barely visible strokes due to minimal pressure",
-    "somewhatFaint": "Light but still legible, with some pressure applied",
-    "heavy": "Thick strokes with strong pressure exerted on the paper"
+    "somewhatFaint": "Light but still legible, with some pressure applied"
   },
   "Speed": {
     "scratchy": "Fast, rough, and often chaotic strokes, with little care",
@@ -95,8 +95,9 @@
   },
   "BottomStrokes": {
     "felonsClaw": "Sharp, hook-like shapes at the bottom of letters, resembling claws",
-    "straightMinimal": "Just a simple straight ish line down",
-    "rounded": "Rounded bums"
+    "minimal": "Just a simple straight ish line down",
+    "curlsBack": "Rounds back on itself",
+    "playful": "Big and round"
   },
   "ConnectionForm": {
     "arcade": "Arched, bridge-like shapes at the top of letters",
@@ -117,7 +118,9 @@
     "upperDominant": "Emphasis on the upper zone of letters, such as tall letters",
     "slightlyUpperDominant": "Upper zone is emphasized but not overpowering",
     "middleDominant": "Emphasis on the middle zone, focusing on letters like 'a' and 'e'",
-    "lowerDominant": "Emphasis on the lower zone, like long descenders"
+    "lowerDominant": "Emphasis on the lower zone, like long descenders",
+    "compressedMiddle": "Emphasis on the upper and lower zone with a compressed middle zone",
+    "balanced": "Nothing takes dominance really"
   },
   "TBarHeight": {
     "high": "T-bar is high up on the stem, closer to the top of the letter",
@@ -126,6 +129,7 @@
   },
   "TBarCrossing": {
     "crossed": "T-bar is clearly crossed, forming a distinct horizontal line",
-    "lightlyCrossed": "T-bar is crossed but with a lighter, less distinct stroke"
+    "lightlyCrossed": "T-bar is crossed but with a lighter, less distinct stroke",
+    "halfCross": "T-bar doesn't go through only starts on the right side"
   }
 }

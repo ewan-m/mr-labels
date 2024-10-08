@@ -1,0 +1,20 @@
+{
+  "Neatness": "somewhatMessy",
+  "Legibility": "partiallyLegible",
+  "Consistency": "hurried",
+  "FormCharacteristics": "spidery",
+  "Pressure": "moderatelyBold",
+  "Speed": "scratchy",
+  "Shape": "somewhatAngular",
+  "LetterSize": "slightlyLarge",
+  "Slant": "upright",
+  "LetterSpacing": "expansive",
+  "WordSpacing": "slightlyWideWordSpacing",
+  "LetterConnectivity": "connectedWriting",
+  "LoopStyle": "looped",
+  "LoopClosure": "closedLoops",
+  "BottomStrokes": "minimal",
+  "ConnectionForm": "garland",
+  "Baseline": "mostlyStraight",
+  "DominantZone": "compressedMiddle"
+}

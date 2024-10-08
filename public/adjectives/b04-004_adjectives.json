@@ -1,20 +1,19 @@
 {
   "Neatness": "neat",
-  "Legibility": "partiallyLegible",
+  "Legibility": "legible",
   "Consistency": "deliberate",
-  "FormCharacteristics": "somewhatFlowing",
-  "Pressure": "somewhatFaint",
+  "FormCharacteristics": "somewhatJagged",
+  "Pressure": "bold",
   "Shape": "somewhatRounded",
   "LetterSize": "average",
-  "Slant": "upright",
+  "Slant": "backward",
   "LetterSpacing": "expansive",
   "WordSpacing": "slightlyWideWordSpacing",
   "LetterConnectivity": "mostlyConnectedWriting",
   "LoopClosure": "closedLoops",
-  "BottomStrokes": "rounded",
-  "ConnectionForm": "thread",
+  "LoopStyle": "somewhatLooped",
+  "BottomStrokes": "curlsBack",
   "Baseline": "straight",
-  "DominantZone": "minimal",
-  "TBarHeight": "low",
-  "TBarCrossing": "crossed"
+  "ConnectionForm": "angles",
+  "DominantZone": "compressedMiddle"
 }

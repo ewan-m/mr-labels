@@ -1,0 +1,22 @@
+{
+  "TBarHeight": "low",
+  "TBarCrossing": "crossed",
+  "DominantZone": "middleDominant",
+  "Baseline": "wavy",
+  "ConnectionForm": "garland",
+  "BottomStrokes": "minimal",
+  "LoopClosure": "closedLoops",
+  "LoopStyle": "looped",
+  "LetterConnectivity": "connectedWriting",
+  "WordSpacing": "slightlyWideWordSpacing",
+  "LetterSpacing": "quiteExpansive",
+  "Slant": "upright",
+  "LetterSize": "average",
+  "Shape": "somewhatRounded",
+  "Speed": "somewhatShaky",
+  "Pressure": "bold",
+  "FormCharacteristics": "somewhatFlowing",
+  "Consistency": "sloppy",
+  "Legibility": "partiallyLegible",
+  "Neatness": "somewhatMessy"
+}

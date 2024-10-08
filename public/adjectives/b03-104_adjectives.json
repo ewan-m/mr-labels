@@ -1,0 +1,20 @@
+{
+  "Neatness": "neat",
+  "Legibility": "legible",
+  "Consistency": "deliberate",
+  "FormCharacteristics": "flowing",
+  "Pressure": "moderatelyBold",
+  "Shape": "somewhatRounded",
+  "LetterSize": "slightlyLarge",
+  "Slant": "forward",
+  "LetterSpacing": "expansive",
+  "WordSpacing": "narrowWordSpacing",
+  "LetterConnectivity": "connectedWriting",
+  "LoopClosure": "partiallyClosedLoops",
+  "BottomStrokes": "minimal",
+  "ConnectionForm": "garland",
+  "Baseline": "straight",
+  "DominantZone": "balanced",
+  "TBarHeight": "slightlyHigh",
+  "TBarCrossing": "crossed"
+}
