@@ -1,24 +1,19 @@
 {
   "FormCharacteristics": {
-    "flowing": "Smooth, continuous strokes with a sense of ease",
-    "somewhatFlowing": "Generally smooth with occasional breaks or stiffness",
-    "jagged": "Abrupt, sharp, and uneven strokes, lacking smoothness",
-    "somewhatJagged": "Primarily sharp but with occasional smoother sections",
-    "elegant": "Graceful, refined, and polished with a delicate appearance",
-    "somewhatElegant": "Mostly refined but with occasional rough patches",
-    "blocky": "Square and rigid, with strong, box-like shapes",
-    "partiallyBlocky": "Primarily blocky with some curves or smoother elements",
-    "spidery": "Thin, delicate, and web-like with a fragile appearance",
-    "childlike": "Simple, immature, and lacking refinement or structure",
-    "sharp": "Crisp and pointed with clear, distinct edges",
-    "somewhatMessy": "Mostly tidy but with occasional messiness or irregularities",
-    "messy": "Disorganized and difficult to decipher, with irregular form"
+    "flowing": "Smooth, continuous, with easy, natural motion",
+    "jagged": "Sharp, uneven strokes, with abrupt changes in direction",
+    "polished": "Looks like a real font, very legible",
+    "elegant": "Graceful and refined, with balanced proportions and a polished appearance",
+    "blocky": "Strong, square shapes with rigidity, often with minimal curves",
+    "messy": "Disorganized, irregular, and hard to read, lacking structure",
+    "spidery": "Thin, delicate, and stretched, often appearing fragile",
+    "teenage": "A bit like a child or teenager"
   },
-  "Shape": {
-    "angularLetters": "Letters formed with sharp, distinct angles",
+  "LetterShape": {
+    "angular": "Letters formed with sharp, distinct angles",
     "somewhatAngular": "Primarily angular, with occasional rounded or soft edges",
-    "roundedLetters": "Smooth, curved, and soft letters with no sharp angles",
-    "somewhatRounded": "Generally curved but with some angular forms"
+    "somewhatRounded": "Generally curved but with some angular forms",
+    "rounded": "Smooth, curved, and soft letters with no sharp angles"
   },
   "LetterSize": {
     "large": "Big, oversized letters with strong presence on the page",
@@ -45,57 +40,38 @@
     "extremelyExpansive": "Letters are very widely spaced, almost disconnected"
   },
   "WordSpacing": {
-    "wideWordSpacing": "Large gaps between words, indicating clear separation",
-    "moderatelyWideWordSpacing": "Words are well-spaced but still connected",
-    "slightlyWideWordSpacing": "Words are slightly more spaced than typical",
+    "wide": "Words are well-spaced",
+    "slightlyWide": "Words are slightly more spaced than typical",
     "typical": "Pretty standard",
-    "narrowWordSpacing": "Words are close together with minimal gaps",
-    "extremelyNarrowWordSpacing": "Words are almost touching or overlapping"
+    "slightlyNarrow": "Words are slightly close together",
+    "narrow": "Words are close together with minimal gaps"
   },
   "LetterConnectivity": {
-    "connectedWriting": "Letters are joined together with flowing, continuous strokes",
-    "mostlyConnectedWriting": "Letters are mostly joined, but occasional breaks occur",
-    "mostlyDisconnectedWriting": "Letters are mostly separated and stand apart from one another, occasional joins",
-    "disconnectedWriting": "Letters are separated and stand apart from one another"
-  },
-  "LoopStyle": {
-    "looped": "Letters like 'l' and 'e' have clear, defined loops",
-    "somewhatLooped": "Loops are present but not always fully formed",
-    "noLoops": "No loops present at all"
-  },
-  "LoopClosure": {
-    "closedLoops": "Loops are fully closed, creating complete circular shapes",
-    "partiallyClosedLoops": "Loops are mostly closed but with small openings",
-    "openLoops": "Loops are open, incomplete, or barely formed"
-  },
-  "BottomStrokes": {
-    "felonsClaw": "Sharp, hook-like shapes at the bottom of letters, resembling claws",
-    "minimal": "Just a simple straight ish line down",
-    "curlsBack": "Rounds back on itself",
-    "playful": "Big and round"
+    "connected": "Letters are joined together with flowing, continuous strokes",
+    "mostlyConnected": "Letters are mostly joined, but occasional breaks occur",
+    "mostlyDisconnected": "Letters are mostly separated but occasional joins",
+    "disconnected": "Letters are separated and stand apart from one another"
   },
   "Baseline": {
     "straight": "Writing follows a straight and even baseline with no deviation",
     "mostlyStraight": "Generally straight but with small fluctuations",
     "ascending": "Writing moves upwards, rising above the baseline gradually",
-    "slightlyAscending": "Slight upward trend but not extreme",
     "descending": "Writing slopes downwards, below the baseline",
-    "slightlyDescending": "Subtle downward slope",
-    "wavy": "Baseline undulates with noticeable rises and falls"
+    "inconsistent": "Baseline all over the place"
   },
   "TopZone": {
-    "Large": "Larger than typical",
-    "Normal": "Normal sized, consistent with other zones",
-    "Small": "Smaller than typical"
+    "large": "Larger than typical",
+    "normal": "Normal sized, consistent with other zones",
+    "small": "Smaller than typical"
   },
   "MidZone": {
-    "Large": "Larger than typical",
-    "Normal": "Normal sized, consistent with other zones",
-    "Small": "Smaller than typical"
+    "large": "Larger than typical",
+    "normal": "Normal sized, consistent with other zones",
+    "small": "Smaller than typical"
   },
   "BottomZone": {
-    "Large": "Larger than typical",
-    "Normal": "Normal sized, consistent with other zones",
-    "Small": "Smaller than typical"
+    "large": "Larger than typical",
+    "normal": "Normal sized, consistent with other zones",
+    "small": "Smaller than typical"
   }
 }

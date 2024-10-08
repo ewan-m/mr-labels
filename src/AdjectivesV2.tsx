@@ -218,7 +218,14 @@ const HandwritingMeasurement: FunctionComponent<{
 }> = ({ initialData }) => {
   const authors = Object.keys(imagesMap);
 
-  const [authorIndex, setAuthorIndex] = useState(0);
+  // Find the first empty authorMap
+  const findFirstEmptyAuthor = () => {
+    return authors.findIndex(
+      (author) => Object.keys(initialData[author] || {}).length === 0,
+    );
+  };
+
+  const [authorIndex, setAuthorIndex] = useState(findFirstEmptyAuthor());
   const [descriptions, setDescriptions] =
     useState<Record<string, Record<string, string>>>(initialData);
 
@@ -260,7 +267,9 @@ const HandwritingMeasurement: FunctionComponent<{
       <div className="container">
         <div className="left-panel">
           <div className="card">
-            <h1 className="title">Script Analysis</h1>
+            <h1 className="title">
+              Script Analysis ({authorIndex + 1}/{authors.length})
+            </h1>
             <p className="subtitle">
               Classify {imagesMap[authors[authorIndex]][0]}'s handwriting
               attributes
@@ -281,7 +290,12 @@ const HandwritingMeasurement: FunctionComponent<{
                 {Object.entries(adjectives).map(([adjective, description]) => (
                   <div key={adjective} className="tooltip">
                     <button
-                      className={`adjective-chip ${descriptions[authors[authorIndex]][category] === adjective ? "selected" : ""}`}
+                      className={`adjective-chip ${
+                        descriptions[authors[authorIndex]][category] ===
+                        adjective
+                          ? "selected"
+                          : ""
+                      }`}
                       onClick={() => selectAdjective(category, adjective)}
                     >
                       {adjective}

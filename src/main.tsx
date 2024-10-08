@@ -11,11 +11,11 @@ const App = () => {
   const store = useStore();
 
   if (store.status === "pending") {
-    return <p>Loading...</p>;
+    return <p style={{ textAlign: "center", width: "100%" }}>Loading...</p>;
   }
 
   if (store.status === "error") {
-    return <p>Error...</p>;
+    return <p style={{ textAlign: "center", width: "100%" }}>Error...</p>;
   }
 
   return <Adjectives initialData={store.data.record} />;
