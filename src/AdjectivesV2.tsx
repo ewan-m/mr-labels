@@ -1,8 +1,9 @@
-import { useState } from "react";
-import adjectivesMap from "./adjectives.json";
+import { FunctionComponent, useState } from "react";
+import adjectivesMap from "./adjectives-v2.json";
 import imagesMapImport from "./images.json";
+import { useUpdateStore } from "./useStore";
 
-const imagesMap = (imagesMapImport as Record<string, string[]>)
+const imagesMap = imagesMapImport as Record<string, string[]>;
 
 const styles = `
   .container {
@@ -212,35 +213,45 @@ const styles = `
   }
 `;
 
-const HandwritingMeasurement = () => {
-  const [authorIndex, setAuthorIndex] = useState(0);
-  const [selectedAdjectives, setSelectedAdjectives] = useState<Record<string, string>>({});
-
+const HandwritingMeasurement: FunctionComponent<{
+  initialData: Record<string, Record<string, string>>;
+}> = ({ initialData }) => {
   const authors = Object.keys(imagesMap);
 
+  const [authorIndex, setAuthorIndex] = useState(0);
+  const [descriptions, setDescriptions] =
+    useState<Record<string, Record<string, string>>>(initialData);
+
+  console.log(descriptions);
+
   const selectAdjective = (category: string, adjective: string) => {
-    setSelectedAdjectives((prev) => ({
+    const authorKey = authors[authorIndex];
+    const newAuthorMap = { ...descriptions[authorKey], [category]: adjective };
+    setDescriptions((prev) => ({
       ...prev,
-      [category]: adjective,
+      [authorKey]: newAuthorMap,
     }));
   };
 
   const downloadJson = () => {
-    const jsonString = JSON.stringify(selectedAdjectives, null, 2);
+    const jsonString = JSON.stringify(descriptions, null, 2);
     const blob = new Blob([jsonString], { type: "application/json" });
     const url = URL.createObjectURL(blob);
 
     const a = document.createElement("a");
     a.href = url;
-    a.download = `${imagesMap[authors[authorIndex]][0]}_adjectives.json`;
+    a.download = `adjectives.json`;
     a.click();
 
     URL.revokeObjectURL(url);
   };
 
+  const store = useUpdateStore();
+
   const nextAuthor = () => {
-    setAuthorIndex((a) => (a + 1) % authors.length);
-    setSelectedAdjectives({});
+    store.mutateAsync(descriptions).then(() => {
+      setAuthorIndex((a) => (a + 1) % authors.length);
+    });
   };
 
   return (
@@ -270,7 +281,7 @@ const HandwritingMeasurement = () => {
                 {Object.entries(adjectives).map(([adjective, description]) => (
                   <div key={adjective} className="tooltip">
                     <button
-                      className={`adjective-chip ${selectedAdjectives[category] === adjective ? "selected" : ""}`}
+                      className={`adjective-chip ${descriptions[authors[authorIndex]][category] === adjective ? "selected" : ""}`}
                       onClick={() => selectAdjective(category, adjective)}
                     >
                       {adjective}
